@@ -1,0 +1,28 @@
+<div class="content">
+  <div class="session">
+    <div class="row">
+      <h1 class="col-sm-12">Palindrome Test</h1>
+    </div>
+    <div class="row form-group">
+      <input #inputWord
+        class="form-control" 
+        type="test" 
+        placeholder="Input"
+        ng
+      />
+    </div>
+    <div class="row">
+      <input 
+        class="btn btn-lg btn-primary btn-block" 
+        type="submit" 
+        (click)="onSubmitClick(inputWord.value)"
+        value="Check"
+        required/>
+    </div>
+    <div class="row">
+      <p class="result col-sm-12">
+        {{result}}
+      </p>
+    </div>
+  </div>
+</div>

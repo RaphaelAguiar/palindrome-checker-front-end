@@ -1,0 +1,9 @@
+.session {
+  width: 300px;
+  margin: 50px auto
+}
+
+.result {
+    text-align: center;
+    padding: 30px
+}
