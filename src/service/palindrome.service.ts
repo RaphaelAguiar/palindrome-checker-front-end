@@ -9,9 +9,8 @@ export class PalindromeService {
     }
 
     public isPalindrome(word: string): Observable<any> {
-        return this.http.post<any>(
-            "/is-palindrome",
-            {word: word}
+        return this.http.get<any>(
+            `/is-palindrome/${word}`
         );
     }
 }
